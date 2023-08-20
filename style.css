@@ -1,0 +1,95 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rockwell', sans-serif;
+    background: url(https://www.techrepublic.com/wp-content/uploads/2023/08/tr8123-future-ai-1024x682.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header {
+    background: radial-gradient(circle, #6EB5FF, #3D8EE6);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.header__title {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    /* Added padding for content */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Darker translucent overlay color */
+    color: #fff;
+    /* Bright white font color */
+}
+
+/* Section title styles */
+.section-title {
+    font-size: 28px;
+    color: #FF6B6B;
+    margin-top: 30px;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    color: #FF3D68;
+    margin-top: 15px;
+}
+
+/* Info text styles */
+.info-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Info list styles */
+.info-list {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.info-list li {
+    margin-bottom: 8px;
+}
+
+/* Registration button styles */
+.registration-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #FF3D68;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.registration-btn:hover {
+    background-color: #FF6B6B;
+    color: #fff;
+}
